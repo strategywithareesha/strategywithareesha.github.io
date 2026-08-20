@@ -102,7 +102,36 @@ a {
   padding: 11px 16px;
   border-radius: 100px
 }
+.about-kicker {
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .18em;
+    color: #7b805d;
+    margin-bottom: 22px;
+}
 
+.about-copy .lead {
+    font-size: clamp(25px, 2.5vw, 34px);
+    line-height: 1.25;
+    letter-spacing: -.025em;
+    margin: 0 0 20px;
+    max-width: 600px;
+}
+
+.about-copy .lead em {
+    font-family: "Playfair Display", Georgia, serif;
+    color: #707b4d;
+    font-weight: 500;
+}
+
+.about-description {
+    max-width: 540px;
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0 0 32px;
+}
 .menu-toggle {
   display: none;
   border: 0;
