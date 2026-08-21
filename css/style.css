@@ -141,17 +141,36 @@ a {
     transform: rotate(0deg) translateY(-3px);
 }
 .about-copy .lead {
-    font-size: clamp(25px, 2.5vw, 34px);
-    line-height: 1.25;
-    letter-spacing: -.025em;
-    margin: 0 0 20px;
-    max-width: 600px;
+    font-size: clamp(27px, 2.5vw, 34px);
+    line-height: 1.3;
+    letter-spacing: -0.025em;
+    margin: 0 0 28px;
+    max-width: 620px;
+    color: var(--text);
+}
+
+.about-copy .lead .intro-highlight {
+    display: block;
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.35em;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    margin-bottom: 18px;
 }
 
 .about-copy .lead em {
     font-family: "Playfair Display", Georgia, serif;
     color: #707b4d;
-    font-weight: 500;
+    font-weight: 600;
+}
+.about-copy .lead .intro-ending {
+    display: block;
+    margin-top: 18px;
+    font-size: 0.82em;
+    line-height: 1.45;
+    color: #707070;
+    letter-spacing: -0.01em;
 }
 
 .about-description {
