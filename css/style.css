@@ -117,11 +117,28 @@ a {
 }
 
 .areesha-photo {
-    width: 280px;
-    height: 350px;
+    width: 300px;
+    height: 360px;
+    margin-top: 28px;
+    display: block;
+
     object-fit: cover;
-    margin-top: 35px;
-    border-radius: 2px;
+    object-position: center bottom;
+
+    padding: 10px;
+    background: var(--white);
+    border: 1px solid var(--line);
+
+    box-shadow:
+        10px 10px 0 var(--cream),
+        0 18px 35px rgba(38, 39, 28, 0.08);
+
+    transform: rotate(-1.2deg);
+    transition: transform 0.3s ease;
+}
+
+.areesha-photo:hover {
+    transform: rotate(0deg) translateY(-3px);
 }
 .about-copy .lead {
     font-size: clamp(25px, 2.5vw, 34px);
