@@ -110,7 +110,19 @@ a {
     color: #7b805d;
     margin-bottom: 22px;
 }
+.about-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
+.areesha-photo {
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 35px;
+    border-radius: 2px;
+}
 .about-copy .lead {
     font-size: clamp(25px, 2.5vw, 34px);
     line-height: 1.25;

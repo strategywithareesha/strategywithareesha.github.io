@@ -7,10 +7,17 @@ const SITE_CONFIG = {
 };
 
 const resources = [
-  {title:"Hook Library",category:"Content",type:"PDF",description:"A starting collection of hooks for social media content.",file:"resources/content/hook-library.pdf",downloadable:true},
+  {
+  title: "30 Days SMM Skill Builder",
+  category: "Strategy",
+  type: "Spreadsheet",
+  description: "A 30-day SMM skill-building plan covering content strategy, content creation, marketing, growth and more.",
+  file: "resources/strategy/SMM-BY-AM.xlsx",
+  downloadable: true
+},
   {title:"Content Ideas",category:"Content",type:"Guide",description:"Ideas to help you build a more consistent content pipeline.",file:"resources/content/content-ideas.pdf",downloadable:true},
   {title:"Content Pillar Guide",category:"Strategy",type:"Guide",description:"A simple framework for defining and organizing content pillars.",file:"resources/strategy/content-pillars.pdf",downloadable:true},
-  {title:"SMM Beginner Roadmap",category:"Beginner",type:"Roadmap",description:"A structured starting point for learning social media marketing.",file:"resources/strategy/SMM-roadmap-by-AM.pdf",downloadable:true},
+  {title:"SMM Beginner Roadmap",category:"Beginner",type:"Roadmap",description:"A structured starting point for learning social media marketing.",file:"resources/strategy/ROADMAP.docx",downloadable:true},
   {
     title: "Phase 1",
     category: "Strategy",
