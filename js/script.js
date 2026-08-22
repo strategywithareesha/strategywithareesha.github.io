@@ -15,8 +15,6 @@ const resources = [
   file: "resources/strategy/SMM-BY-AM.xlsx",
   downloadable: true
 },
-  {title:"Content Ideas",category:"Content",type:"Guide",description:"Ideas to help you build a more consistent content pipeline.",file:"resources/content/content-ideas.pdf",downloadable:true},
-  {title:"Content Pillar Guide",category:"Strategy",type:"Guide",description:"A simple framework for defining and organizing content pillars.",file:"resources/strategy/content-pillars.pdf",downloadable:true},
   {title:"SMM Beginner Roadmap",category:"Beginner",type:"Roadmap",description:"A structured starting point for learning social media marketing.",file:"resources/strategy/ROADMAP.docx",downloadable:true},
   {
     title: "Phase 1",
@@ -27,9 +25,7 @@ const resources = [
     downloadable: true
 },
   {title:"Social Media Audit",category:"Analytics",type:"Template",description:"A template for reviewing a social profile and identifying opportunities.",file:"resources/analytics/social-media-audit.xlsx",downloadable:true},
-  {title:"Caption Guide",category:"Copywriting",type:"Guide",description:"Useful caption structures and prompts for social content.",file:"resources/copywriting/caption-guide.pdf",downloadable:true},
   {title:"Content Calendar",category:"Templates",type:"Spreadsheet",description:"Plan content ideas, formats, dates and publishing status.",file:"resources/templates/content-calendar.xlsx",downloadable:true},
-  {title:"SMM AI Prompts",category:"AI & Automation",type:"Prompt Library",description:"Prompts for brainstorming, planning and improving social content.",file:"resources/ai/smm-ai-prompts.pdf",downloadable:true}
 ];
 
 const grid = document.getElementById("resourceGrid");
