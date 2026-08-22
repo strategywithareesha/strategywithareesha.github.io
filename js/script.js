@@ -24,7 +24,7 @@ const resources = [
     file: "resources/strategy/Phase-1-from-AM.pdf",
     downloadable: true
 },
-  {title:"Social Media Audit",category:"Analytics",type:"Template",description:"A template for reviewing a social profile and identifying opportunities.",file:"resources/analytics/social-media-audit.xlsx",downloadable:true},
+  {title:"Social Media Audit",category:"Analytics",type:"Template",description:"A template for reviewing a social profile and identifying opportunities.",file:"resources/analytics/AUDIT-TEMPLATE.docx",downloadable:true},
   {title:"Content Calendar",category:"Templates",type:"Spreadsheet",description:"Plan content ideas, formats, dates and publishing status.",file:"resources/templates/CC-TEMPLATE.xlsx",downloadable:true},
 ];
 
