@@ -116,6 +116,16 @@ a {
     align-items: flex-start;
 }
 
+.nav-cta.booking-cta {
+  background: #6F7B4A !important;
+  border-color: #6F7B4A;
+  color: #fff !important;
+}
+
+.nav-cta.booking-cta:hover {
+  background: #5C673D !important;
+  border-color: #5C673D;
+}
 .areesha-photo {
     width: 300px;
     height: 360px;
