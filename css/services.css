@@ -2521,3 +2521,146 @@ body {
         font-size: 13px;
     }
 }
+
+
+/* =========================================================
+   FINAL SIZE + SKIP-LINK FIX
+   Existing CSS above is intentionally preserved.
+   ========================================================= */
+
+/* Fix the skip link: keep it accessible without appearing
+   as an unstyled element at the top of the page. */
+.skip-link {
+    position: fixed;
+    top: 12px;
+    left: 20px;
+    z-index: 2000;
+    padding: 9px 14px;
+    border-radius: 6px;
+    background: var(--black);
+    color: var(--white);
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 600;
+    transform: translateY(-150%);
+    transition: transform .2s ease;
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}
+
+/* Keep the overall page width aligned with the index page,
+   while reducing the oversized visual scale slightly. */
+@media (min-width: 901px) {
+    .hero,
+    .intro,
+    .manifesto,
+    .services,
+    .start,
+    .process,
+    .transformation,
+    .call,
+    .faq,
+    .final {
+        padding-left: max(20px, calc((100vw - 1160px) / 2));
+        padding-right: max(20px, calc((100vw - 1160px) / 2));
+    }
+
+    .hero h1 {
+        font-size: clamp(48px, 6vw, 78px);
+        letter-spacing: -.04em;
+    }
+
+    .intro-title,
+    .start-title,
+    .process-title,
+    .faq-title {
+        font-size: clamp(40px, 4.5vw, 60px);
+        letter-spacing: -.04em;
+    }
+
+    .manifesto h2,
+    .services-title,
+    .transformation-title {
+        font-size: clamp(40px, 5vw, 62px);
+        letter-spacing: -.04em;
+    }
+
+    .call-title {
+        font-size: clamp(54px, 6vw, 88px);
+        letter-spacing: -.045em;
+    }
+
+    .final h2 {
+        font-size: clamp(54px, 7.5vw, 105px);
+        letter-spacing: -.045em;
+    }
+
+    .intro-copy {
+        font-size: 21px;
+    }
+
+    .service-name {
+        font-size: clamp(28px, 3.5vw, 48px);
+    }
+}
+
+/* Tablet */
+@media (max-width: 900px) and (min-width: 561px) {
+    .hero h1 {
+        font-size: 62px;
+    }
+
+    .intro-title,
+    .start-title,
+    .process-title,
+    .faq-title,
+    .manifesto h2,
+    .services-title,
+    .transformation-title {
+        font-size: 52px;
+    }
+
+    .call-title {
+        font-size: 68px;
+    }
+
+    .final h2 {
+        font-size: 78px;
+    }
+}
+
+/* Mobile: reduce the oversized headings while retaining
+   the existing responsive layout. */
+@media (max-width: 560px) {
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .intro-title,
+    .start-title,
+    .process-title,
+    .faq-title,
+    .manifesto h2,
+    .services-title,
+    .transformation-title {
+        font-size: 40px;
+    }
+
+    .call-title {
+        font-size: 50px;
+    }
+
+    .final h2 {
+        font-size: 58px;
+    }
+
+    .intro-copy {
+        font-size: 20px;
+    }
+
+    .service-name {
+        font-size: 28px;
+    }
+}
